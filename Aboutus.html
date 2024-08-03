@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon " type="x-icon" href="logo_1.png">
+    <title>About Us _ s2learning</title>
+    <link rel="stylesheet" href="style_About.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<div id="main">
+    <div id="nav">
+        <div id="nav-prt1">
+            <img src="S2 Logo.svg" alt="S2 Logo">
+            <a href="index.html">
+                <h4>Home</h4>
+            </a>
+
+            <a href="Aboutus.html">
+                <h4 style="color: #FF8C1F;">About us</h4>
+            </a>
+
+            <a href="servisea.html">
+                <h4>Services</h4>
+            </a>
+            <a href="contact.html">
+                <h4>Contact Us</h4>
+            </a>
+
+            <div class="dropdown">
+                <h4 class="dropbtn">Support <i class="fa fa-caret-down"></i></h4>
+                <div class="dropdown-content">
+                    <a href="submit_Ticket.html">Submit Ticket</a>
+                    <a href=".html">My Tickets</a>
+                </div>
+            </div>
+
+        </div>
+        <a href="login.html"><button class="login-btn"><b>Login</b></button></a>
+        <div class="hamburger" onclick="toggleNav()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <div id="mobile-nav" class="mobile-nav">
+        <a href="Aboutus.html">About Us</a>
+        <a href="servisea.html">Services</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="support.html">Support</a>
+    </div>
+</div>
+<script>
+    function toggleNav() {
+        var nav = document.getElementById("mobile-nav");
+        nav.style.display = (nav.style.display === "flex") ? "none" : "flex";
+    }
+</script>
+
+<!-- ======================= ABOUT US ========================= -->
+<div class="all">
+    <div class="About-section">
+        <h1>ABOUT US</h1>
+    </div>
+
+    <!-- ======================2 PIC LIMGES =============== -->
+
+    <div class="container-split">
+        <div class="split-section">
+            <h1>OUR MISSION</h1>
+            <p>We combine content, instructional design, technology, and common sense to develop training and media
+                resources for our partners that are engaging, motivating, affordable, and effective.</p>
+        </div>
+        <div class="image-split">
+            <img src="Our-Mission.png _2.png" alt="Our Mission Image">
+        </div>
+    </div>
+
+    <!------------------- left saide iamfge ------------------>
+    <div class="split-saide">
+        <div class="image-saide">
+            <img src="Our-Commitments.png_3.png" alt="Our Commitment Image">
+        </div>
+        <div class="saide-section">
+            <h1>OUR COMMITMENT</h1>
+            <p>We will do everything within our power to ensure the success of your initiative. Simply stated, we will
+                treat your business like it’s our own.</p>
+        </div>
+    </div>
+
+    <div class="world-connection">
+        <div class="world-p-h1">
+
+            <h1>WHAT WE DO</h1>
+            <p>
+                Since 1999, our learning professionals have been developing and delivering training and media services
+                to
+                business and organizations around the world. That’s not just marketing spin. We have delivered content
+                in
+                North America, South America, Europe Asia and Australia in over 20 different languages. Our training
+                curricula have covered topics ranging from finance, to manufacturing, to safety, and even how to drive a
+                race car.
+
+                We have Fortune 500 clients that have partnered with us for the entire history of our company. We not
+                only
+                develop training and media that impact others, we ourselves are constantly learning and developing new
+                skills so that we can better serve our partners now and in to the futur</p>
+        </div>
+    </div>
+
+    <!-- Arrow Button -->
+    <a href="#" id="scrollToTopBtn" title="Go to top"><i class="fas fa-arrow-up"></i></a>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <a href="index.html"><img src="S2 Logo.svg" alt="S2 Logo" style="max-width: 100%; height: auto;"></a>
+            </div>
+            <div class="footer-section">
+                <a href="mailto:your-email@example.com" style="padding-left: 0;">info@s2learning.com</a>
+            </div>
+            <div class="footer-section">
+                <a href="https://www.linkedin.com/in/iqra-jabri-191251303/"><img src="linkdin logo.png" alt="LinkedIn"
+                        style="width: 33px;"></a>
+            </div>
+        </div>
+    </footer>
+
+
+</div>
+<div class="last-footer-container">
+    <div class="last-footer-section">
+        <p>&copy; 2024. All Rights Reserved.</p>
+    </div>
+    <div class="last-footer-section">
+        <a href="#">Terms of Use</a>
+    </div>
+    <div class="last-footer-section">
+        <a href="#">Privacy Policy</a>
+    </div>
+    <div class="last-footer-section">
+        <p>Powered by S2 Learning</p>
+    </div>
+    <script>
+        function openGmail() {
+            window.open("https://mail.google.com/", "_blank");
+        }
+
+
+        // 
+        window.onscroll = function () {
+            scrollFunction();
+        };
+
+        function scrollFunction() {
+            const scrollToTopBtn = document.getElementById("scrollToTopBtn");
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                scrollToTopBtn.style.display = "block";
+            } else {
+                scrollToTopBtn.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        document.getElementById("scrollToTopBtn").addEventListener("click", function (event) {
+            event.preventDefault();
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+
+    </script>
+
+    </body>
+
+</html>

@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #f3f3f3;
+}
+
+.mytrickes-container {
+    font-style: inherit;
+    font-weight: inherit;
+    background-color: #fff;
+    padding: 2rem;
+    /* border-radius: 8px; */
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    width: 100%;
+    max-width: 876px;
+    text-align: center;
+    margin: auto;
+    margin-top: 178px;
+}
+
+.mytrickes-container h1 {
+    color: #ff6600;
+    font-size: 2rem;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 0.5rem;
+}
+
+.mytrickes-container h2 {
+    font-family: "Montserrat", sans-serif;
+    color: #ff6600;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.mytrickes-group {
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: #efefef75;
+}
+
+/* input[type="checkbox"] {
+    margin-right: 0.5rem;
+} */
+
+.mytrickes-container {
+    text-align: left;
+}
+
+.mytrickes-btn {
+    background-color: #fff;
+}
+
+.mytrickes-btn {
+    color: #5b5858;
+    /* border: none; */
+    padding: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 8%;
+    /* margin-bottom: 1rem; */
+    border: 1px solid #8080803b;
+}
+
+.mytrickes-btn:hover {
+    background-color: #9b9a9826;
+}
+
+.forgot-password {
+    color: #ff6600;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+@media (max-width: 400px) {
+    .login-container {
+        padding: 1rem;
+    }
+}

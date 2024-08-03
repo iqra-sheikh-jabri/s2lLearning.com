@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon " type="x-icon" href="logo_1.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="contact-us.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Services _ s2learning</title>
+</head>
+
+<body>
+
+    <div class="About-section">
+        <h1>CONTACT US</h1>
+    </div>
+
+    <div id="main">
+        <div id="nav">
+            <div id="nav-prt1">
+                <img src="S2 Logo.svg" alt="S2 Logo">
+                <a href="index.html">
+                    <h4>Home</h4>
+                </a>
+
+                <a href="Aboutus.html">
+                    <h4>About us</h4>
+                </a>
+
+                <a href="servisea.html">
+                    <h4>Services</h4>
+                </a>
+                <a href="contact.html">
+                    <h4 style="color: #FF8C1F;">Contact Us</h4>
+                </a>
+
+                <div class="dropdown">
+                    <h4 class="dropbtn">Support <i class="fa fa-caret-down"></i></h4>
+                    <div class="dropdown-content">
+                        <a href="submit_Ticket.html">Submit Ticket</a>
+                        <a href=".html">My Tickets</a>
+                    </div>
+                </div>
+
+            </div>
+            <a href="login.html"><button class="login-btn"><b>Login</b></button></a>
+            <div class="hamburger" onclick="toggleNav()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <div id="mobile-nav" class="mobile-nav">
+            <a href="Aboutus.html">About Us</a>
+            <a href="servisea.html">Services</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="support.html">Support</a>
+        </div>
+    </div>
+    <script>
+        function toggleNav() {
+            var nav = document.getElementById("mobile-nav");
+            nav.style.display = (nav.style.display === "flex") ? "none" : "flex";
+        }
+    </script>
+
+    <!-- 0000000000000000000000 Contact US 00000000000000000 -->
+    <div class="all">
+        <div id="body-all">
+
+            <div class="contact-container">
+                <div class="form-container">
+                    <form>
+                        <input type="text" placeholder="First Name" required>
+                        <input type="text" placeholder="Last Name" required>
+                        <input type="email" placeholder="Email" required>
+                        <input type="tel" placeholder="Phone" required>
+                        <textarea placeholder="Message" required></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+                <div class="info-container">
+                    <div class="contact-info">
+                        <div>
+                            <i class="fa fa-phone"></i> 888-576-7678
+                        </div>
+                        <div>
+                            <i class="fa fa-map-marker"></i> S2 Learning, Ltd. 2130 Oxbow Road Belpre, OH 45714
+                        </div>
+                        <div>
+                            <i class="fa fa-envelope"></i> support@s2learning.com
+                        </div>
+                    </div>
+                    <div class="map-container">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3141.857588475094!2d-81.61982108429696!3d39.2732478795159!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88484f238fe7f3bb%3A0xc90bb6877fef2b0b!2sS2%20Learning%2C%20Ltd.%202130%20Oxbow%20Rd%2C%20Belpre%2C%20OH%2045714%2C%20USA!5e0!3m2!1sen!2sin!4v1623872833277!5m2!1sen!2sin"
+                            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Arrow Button -->
+    <a href="#" id="scrollToTopBtn" title="Go to top"><i class="fas fa-arrow-up"></i></a>
+    <!--========================= FOOTER========================= -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <a href="index.html"><img src="S2 Logo.svg" alt="S2 Logo" style="max-width: 100%; height: auto;"></a>
+            </div>
+            <div class="footer-section">
+                <a href="mailto:your-email@example.com" style="padding-left: 0;">info@s2learning.com</a>
+            </div>
+            <div class="footer-section">
+                <a href="https://www.linkedin.com/in/iqra-jabri-191251303/"><img src="linkdin logo.png" alt="LinkedIn"
+                        style="width: 33px;"></a>
+            </div>
+        </div>
+    </footer>
+
+    </div>
+    <div class="last-footer-container">
+        <div class="last-footer-section">
+            <p>&copy; 2024. All Rights Reserved.</p>
+        </div>
+        <div class="last-footer-section">
+            <a href="#">Terms of Use</a>
+        </div>
+        <div class="last-footer-section">
+            <a href="#">Privacy Policy</a>
+        </div>
+        <div class="last-footer-section">
+            <p>Powered by S2 Learning</p>
+        </div>
+        <script>
+            function openGmail() {
+                window.open("https://mail.google.com/", "_blank");
+            }
+        </script>
+
+</body>
+
+</html>
+<script>
+    // script.js
+    document.querySelector('form').addEventListener('submit', function (e) {
+        e.preventDefault();
+        const formData = new FormData(e.target);
+        const data = Object.fromEntries(formData.entries());
+        console.log(data);
+        alert('Form submitted!');
+    });
+    // arrow btn
+    window.onscroll = function () {
+        scrollFunction();
+    };
+
+    function scrollFunction() {
+        const scrollToTopBtn = document.getElementById("scrollToTopBtn");
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            scrollToTopBtn.style.display = "block";
+        } else {
+            scrollToTopBtn.style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    document.getElementById("scrollToTopBtn").addEventListener("click", function (event) {
+        event.preventDefault();
+        window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+
+</script>
+</body>
+
+</html>

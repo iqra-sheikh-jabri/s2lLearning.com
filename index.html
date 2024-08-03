@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon " type="x-icon" href="logo_1.png">
+    <title>S2Learning - Seriousy smart performance, learning, and safety services.</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<!-- This is Where the navigation bar start -->
+<div id="main">
+    <div id="nav">
+        <div id="nav-prt1">
+            <img src="S2 Logo.svg" alt="S2 Logo">
+            <a href="index.html">
+                <h4 style="color: #FF8C1F;">Home</h4>
+            </a>
+
+            <a href="Aboutus.html">
+                <h4>About us</h4>
+            </a>
+
+            <a href="servisea.html">
+                <h4>Services</h4>
+            </a>
+            <a href="contact.html">
+                <h4>Contact Us</h4>
+            </a>
+            <!-- Start the dropdown -->
+            <div class="dropdown">
+                <h4 class="dropbtn">Support <i class="fa fa-caret-down"></i></h4>
+                <div class="dropdown-content">
+                    <a href="submit_Ticket.html">Submit Ticket</a>
+                    <a href=".html">My Tickets</a>
+                </div>
+            </div>
+
+        </div>
+        <!-- style the lofin button -->
+        <a href="login.html"><button class="login-btn"><b>Login</b></button></a>
+        <div class="hamburger" onclick="toggleNav()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <!-- nav bar create the mobile responsivd -->
+    <div id="mobile-nav" class="mobile-nav">
+        <a href="Aboutus.html">About Us</a>
+        <a href="servisea.html">Services</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="support.html">Support</a>
+    </div>
+</div>
+<script>
+    // nav bar  interactive
+    function toggleNav() {
+        var nav = document.getElementById("mobile-nav");
+        nav.style.display = (nav.style.display === "flex") ? "none" : "flex";
+    }
+</script>
+<!--  Style ("IT'S NOT ROCKET SCIENCE") image , text , paragraph and button-->
+<div class="hero">
+    <div id="hero-banner">
+        <img src="Main-Home-Banner.jpg" alt="Hero Banner">
+    </div>
+</div>
+<div id="content">
+    <div id="left">
+        <h1>IT'S NOT ROCKET SCIENCE</h1>
+        <p>But it IS science. Learning, performance, and safety... All of these disciplines have a
+            body of supporting
+            research that defines how they should be implemented. If your solution provider doesn’t have data, then you
+            need to find a resource that does. Get in touch to find out why partnering with S2 is seriously smart.</p>
+        <a href="contact.html"><button class="btn1">Get in touch</button></a>
+        <a href="servisea.html"><button class="btn2">Our Services</button></a>
+    </div>
+</div>
+<!--  Style ("You need to know") logo , text , paragraph , horizantaline , & button  -->
+<div class="sec-2">
+    <img src="Logo Symbol.png" alt="Logo Symbol" class="logosymbol">
+    <h1 class="Heading">You need to know</h1>
+    <p class="para">
+        We’ve been in business for over 20 years. During that time, we have worked with all kinds of companies
+        who do all kinds of things. We have clients in the consulting, finance, manufacturing, retail, and
+        service industries. We have helped clients teach new skills, improve performance, increase sales, stay
+        safe, and leverage data. We do these things better because we are data-driven, experienced, and smart.
+        When it makes sense, we use technology to power our solutions. Finally, we are cost-effective... Really
+        cost-effective.
+    </p>
+    <div class="holizontal-lines">
+        <hr>
+        <h3 class="h3">You may assume that we are overstating what we do. Our partners would disagree.</h3>
+        <hr>
+        </p>
+    </div>
+</div>
+<!-- Background Image Above of 4 images  -->
+<div class="dots-bg">
+    <header>
+        <h1>SERVICES</h1>
+    </header>
+    <!-- Four iamges paragraph heading & background colors -->
+    <main>
+        <section class="services-grid">
+            <div class="service" id="service-1">
+                <img src="Mask group.png" alt="Training content development">
+                <div class="content">
+                    <h2>Training content development</h2>
+                    <p>S2 partners with organizations around the world to create training content that is delivered
+                        online, in the classroom, or using blended strategies that incorporate both online and classroom
+                        delivery. Our courses are instruction ally sound and incorporate a balanced blend of practice,
+                        feedback, interactivity, and assessment. Course media can include narration, photos, animation,
+                        or video.
+                    </p>
+                </div>
+            </div>
+            <div class="service" id="service-2">
+                <img src="Mask group-2.png" alt="Customized learning portals">
+                <div class="content">
+                    <h2>Customized learning portals</h2>
+                    <p>We host customizable learning portals that can be used to host, deliver, manage, and track a
+                        variety of training resources, including SCORM and xAPI-compliant courses, videos, and
+                        documentation. Learning events can be programmed and triggered automatically. Access to
+                        resources is organized and branded for delivery to multiple clients.d.</p>
+                </div>
+            </div>
+            <div class="service" id="service-2">
+                <img src="classroom-1 (1).png" alt="Form development, data collection, data analysis">
+                <div class="content">
+                    <h2>Form development, data collection, data analysis</h2>
+                    <p>We create complex forms that can be used to collect data that informs any process. Examples
+                        include user profiles, gap analyses, and assessments. Useful reports are generated
+                        automatically. Our learning portals are used to control access to the forms. Data collected via
+                        the forms can be used to control resources and create dynamic learning pathways.</p>
+                </div>
+            </div>
+            <div class="service" id="service-1">
+                <img src="Mask group-3.png" alt="Performance and safety consulting">
+                <div class="content">
+                    <h2>Performance and safety consulting</h2>
+                    <p>S2 works with clients to develop and implement performance-based initiatives that improve
+                        productivity and safety. Our consultants have designed implementations for industries ranging
+                        from manufacturing to retail. These initiatives use S2 technologies to collect and analyze
+                        performance data, deliver feedback, provide support, and train remedial skills.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- In the middle is the View button -->
+    <div class="view-all">
+        <a href="servisea.html"><input type="button" value="View All"></a>
+    </div>
+</div>
+
+<!-- ("Over Client container") fill and Styling this paragraph , heading , and 1 image-->
+<div class="wrapper">
+    <div class="paragraph-box">
+        <p>
+            The security and privacy of our clients (and our client’s clients) is paramount. We’re not naming names.
+            Suffice it to say that we develop and manage content for the world’s most successful companies, largest
+            organizations, and most prestigious universities. If you need proof, we’ll prove it.
+        </p>
+    </div>
+    <div class="overclient">
+        <div class="left-section">
+            <h1>OUR CLIENTS</h1>
+        </div>
+        <div class="right-section">
+            <!-- Add content here for the right section if needed -->
+        </div>
+    </div>
+</div>
+
+<!-- ============== 3 images PARAGRAPH =============  -->
+
+<div class="image3">
+    <h1>DESIGN DOES MATTER</h1>
+    <p>If you think you can get the training impact your organization needs by throwing together a PowerPoint and
+        “winging it” in a conference room, you’re wrong. Instructional design matters. We will help you create
+        training
+        in the proper format, with compelling interactivity, practice, and feedback. Together, we will develop
+        training
+        that makes your people better at what they need to do for your organization to achieve its goals</p>
+</div>
+<!-- ============== 3 images  =============  -->
+<div class="imgpaart-1">
+    <img src="Mask group-8.png" alt="man image">
+</div>
+<div class="imgpaart-2">
+    <img src="Mask group-9.png" alt="laptop image">
+</div>
+<div class="imgpaart-3">
+    <img src="Mask group-6.png" alt="laptop image">
+</div>
+
+<!-- ==============  ROBO IMAGE ============= -->
+<div class="robo-image">
+    <img src="Mask group-7.png" alt="laptop image">
+    <div class="robo-box">
+        <h1>ELEARNING</h1>
+        <p>Despite all the research proving otherwise, people still think eLearning isn’t as effective as classroom
+            instruction. The data prove otherwise. Good eLearning is every bit as effective as good classroom
+            instruction. Bad classroom instruction is not as effective as good eLearning. Different training formats
+            are
+            sometimes better suited to a particular subject. But, you can’t simply say that one training format is
+            better than another. Get in touch with us if you want to learn how to evaluate training effectiveness.
+        </p>
+    </div>
+</div>
+
+<!-- ============ LAST DEFINATION =========== -->
+<div class="started">
+    <h1>Ready to get started ?</h1>
+    <p>If you are ready to get started or want to learn more about our services, get in touch. We’ll be happy to
+        take
+        the time to talk with you about your requirements. Once we understand your needs, we’ll tell you how we
+        think we
+        can help. We’ll show you examples of similar projects and, very often, will develop a prototype to give you
+        the
+        opportunity to see our work and provide feedback. At that point, we will be able to provide you with a
+        realistic
+        timeline and pricing for our work. If we aren’t a good fit, we’ll tell you that too. Regardless, we’ll do
+        everything we can to steer you in the right direction.</p>
+</div>
+
+<!-- """""""""""""  SUBSCRIB """"""""""" -->
+<div class="subscrib">
+    <h1>Subscribe to our newsletter</h1>
+    <input type="email" name="Email" id="" placeholder="Email">
+</div>
+
+
+<!--   Arrow Button  -->
+<div class="button">
+    <svg width="50" height="59" viewBox="0 0 59 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="29.5" cy="29.5" r="29.5" fill="url(#paint0_linear_2_1640)" />
+        <path
+            d="M42.3 34.7L34.5 26.9V33.2H29.9C25.5 33.2 22 29.6 22 25.3V18.5C22 17.7 21.3 17 20.5 17C19.7 17 19 17.7 19 18.5V25.3C19 31.3 23.9 36.2 29.9 36.2H34.5V42.5L42.3 34.7Z"
+            fill="white" />
+        <defs>
+            <linearGradient id="paint0_linear_2_1640" x1="29.5" y1="0" x2="29.5" y2="59" gradientUnits="userSpaceOnUse">
+                <stop offset="0.0217788" stop-color="#CECFDE" />
+                <stop offset="0.980014" stop-color="#393E7D" />
+            </linearGradient>
+        </defs>
+    </svg>
+</div>
+
+
+<!-- Arrow Button -->
+<!-- _________________  S2Learning  Logo  _______________ -->
+
+<div class="s2img">
+    <img src="S2 Logo-1.svg" alt="">
+</div>
+
+<!-- :::::::::::::::::::::::::::: INFORMATION :::::::::::::::::::::::: -->
+
+<p class="information">
+    info@s2learning.com
+</p>
+<!-- Socica media icon  -->
+
+<div class="applogo">
+    <img src="linkdin logo.png" alt="">
+</div>
+
+<!-- +++++++++++++++++ FOOTER +++++++++++ -->
+
+<a href="#" id="scrollToTopBtn" title="Go to top"><i class="fas fa-arrow-up"></i></a>
+<footer>
+    <div class="texts">
+        <p>© 2024 . All Rights Reserved.</p>
+        <p>Terms of Use</p>
+        <p>Privacy Policy</p>
+        <p>Powered by S2 Learning</p>
+    </div>
+</footer>
+<script src="scripr.js">
+    function toggleNav() {
+        var mobileNav = document.getElementById("mobile-nav");
+        if (mobileNav.style.display === "flex") {
+            mobileNav.style.display = "none";
+        } else {
+            mobileNav.style.display = "flex";
+        }
+    }
+
+    // arrow btn
+    window.onscroll = function () {
+        scrollFunction();
+    };
+
+    function scrollFunction() {
+        const scrollToTopBtn = document.getElementById("scrollToTopBtn");
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            scrollToTopBtn.style.display = "block";
+        } else {
+            scrollToTopBtn.style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    document.getElementById("scrollToTopBtn").addEventListener("click", function (event) {
+        event.preventDefault();
+        window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+
+</script>
+</body>
+
+</html>

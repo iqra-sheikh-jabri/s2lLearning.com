@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+body{
+    font-family: "Montserrat", sans-serif;
+}
+/* styles.css */
+.container-ticket {
+    background-color: #fff;
+    padding: 20px 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 208px;
+    width: 54vw;
+    /* margin: auto; */
+    margin-left: 25vw;
+}
+
+.form-container-ticket {
+    max-width: 400px;
+    width: 100%;
+    /* text-align: center; */
+}
+
+.sub-h2 {
+    color: #ff6600;
+    margin-bottom: 10px;
+}
+
+.sub-h3 {
+    color: #ff6600;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #5e595912;
+    font-size: 9px;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.form-actions {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    /* margin-top: 20px; */
+}
+
+button {
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e55b00;
+}
+
+.forgot-password {
+    color: #ff6600;
+    text-decoration: none;
+    margin: 12px;
+    font-size: 11px;
+}
+
+.forgot-password:hover {
+    /* text-decoration: underline; */
+    color: #80808054;
+}
